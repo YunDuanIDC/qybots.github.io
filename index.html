@@ -100,7 +100,6 @@
 									</li>
 									<li>
 										<a style="cursor:pointer;" onclick="Donation();">捐助</a>
-										<a style="display: none;" id="Donation" href="https://qybots.github.io/index+.html" class="popup-vimeo btn-video">捐助</a>
 									</li>
 								</ul>
 							</div>
@@ -130,8 +129,10 @@
 					var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
 					document.write(unescape("%3Cspan id='cnzz_stat_icon_1278608912'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278608912' type='text/javascript'%3E%3C/script%3E"));
 				</script>
+				<a id="Donation" href="https://qybots.github.io/index+.html" class="popup-vimeo btn-video">捐助</a>
 				<img src="images/upyun+.png" alt="" />
 				<img src="images/github+.png" alt="" />
+
 			</div>
 		</div>
 
@@ -208,15 +209,20 @@
 							icon: 'w'
 						});
 					} else {
-						xtip.closeAll();
+						var url = "https://www.lanzous.com/i99urid";
+						
+						/*xtip.closeAll();
 						xtip.msg('即将下载Android协议框架...', {
 							times: 4
 						});
-						var url = "http://tiamo.iicp.net/QY_Bot.zip";
 						var iframe = document.createElement("iframe");
 						document.body.appendChild(iframe);
 						iframe.style.display = "none";
-						iframe.src = url;
+						iframe.src = url;*/
+
+						document.getElementById('Donation').setAttribute('href', url);
+						var link = document.getElementById('Donation');
+						link.click();
 					}
 				}
 			}
@@ -238,15 +244,20 @@
 							icon: 'w'
 						});
 					} else {
-						xtip.closeAll();
+						var url = "https://www.lanzous.com/i99urgb";
+						
+						/*xtip.closeAll();
 						xtip.msg('即将下载Android协议批量框架...', {
 							times: 4
 						});
-						var url = "http://tiamo.iicp.net/QY_Botch.zip";
 						var iframe = document.createElement("iframe");
 						document.body.appendChild(iframe);
 						iframe.style.display = "none";
-						iframe.src = url;
+						iframe.src = url;*/
+
+						document.getElementById('Donation').setAttribute('href', url);
+						var link = document.getElementById('Donation');
+						link.click();
 					}
 				}
 			}
@@ -268,15 +279,20 @@
 							icon: 'w'
 						});
 					} else {
-						xtip.closeAll();
+						var url = "https://www.lanzous.com/i99urni";
+						
+						/*xtip.closeAll();
 						xtip.msg('即将下载PC协议框架...', {
 							times: 4
 						});
-						var url = "http://tiamo.iicp.net/QY_PC_Bot.zip";
 						var iframe = document.createElement("iframe");
 						document.body.appendChild(iframe);
 						iframe.style.display = "none";
-						iframe.src = url;
+						iframe.src = url;*/
+
+						document.getElementById('Donation').setAttribute('href', url);
+						var link = document.getElementById('Donation');
+						link.click();
 					}
 				}
 			}
@@ -298,15 +314,20 @@
 							icon: 'w'
 						});
 					} else {
-						xtip.closeAll();
+						var url = "https://www.lanzous.com/i99urfa";
+						
+						/*xtip.closeAll();
 						xtip.msg('即将下载易语言插件模板...', {
 							times: 4
 						});
-						var url = "http://tiamo.iicp.net/E_SDK.zip";
 						var iframe = document.createElement("iframe");
 						document.body.appendChild(iframe);
 						iframe.style.display = "none";
-						iframe.src = url;
+						iframe.src = url;*/
+
+						document.getElementById('Donation').setAttribute('href', url);
+						var link = document.getElementById('Donation');
+						link.click();
 
 					}
 				}
@@ -329,21 +350,28 @@
 							icon: 'w'
 						});
 					} else {
-						xtip.closeAll();
+						var url = "https://www.lanzous.com/i99urej";
+						
+						/*xtip.closeAll();
 						xtip.msg('即将下载C++插件模板...', {
 							times: 4
 						});
-						var url = "http://tiamo.iicp.net/C_SDK.zip";
 						var iframe = document.createElement("iframe");
 						document.body.appendChild(iframe);
 						iframe.style.display = "none";
-						iframe.src = url;
+						iframe.src = url;*/
+
+						document.getElementById('Donation').setAttribute('href', url);
+						var link = document.getElementById('Donation');
+						link.click();
 					}
 				}
 			}
 
 			function Donation() {
-				/*var link = document.getElementById('Donation');
+				/*var url = "http://tiamo.iicp.net/C_SDK.zip";
+				document.getElementById('Donation').setAttribute('href', url);
+				var link = document.getElementById('Donation');
 				link.click();*/
 				xtip.closeAll();
 				xtip.msg('暂时无需捐助', {
