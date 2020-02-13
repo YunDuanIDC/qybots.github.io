@@ -31,111 +31,117 @@
 		<!--link rel="stylesheet" href="css/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owl.theme.default.min.css"-->
 	</head>
-	<!--body style="background-image: url(https://blog.mrabit.com/bing/today);height: 100%;"-->
 
-	<body style="background-image: url(https://api.uixsj.cn/bing/bing.php);height: 100%;">
-		<!--body style="background-image: url(https://api.ixiaowai.cn/gqapi/gqapi.php);height: 100%;"-->
-		<div id="page" class="x-box" style="background: rgba(0, 0, 0, 0.4) no-repeat;">
-			<div class="fh5co-loader"></div>
-			<nav class="fh5co-nav" role="navigation">
-				<div class="top">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-12 text-right">
-								<p class="num"></p>
-								<ul class="fh5co-social">
-									<li>
-										<a style="cursor:pointer;" target="_blank" title="经济学园[付费]" onclick="Group1();"><i class="fa fa-qq" aria-hidden="true"></i></i>
-										</a>
-									</li>
-									<li>
-										<a style="cursor:pointer;" target="_blank" title="科技学园[免费]" onclick="Group2();"><i class="fa fa-qq" aria-hidden="true"></i></i>
-										</a>
-									</li>
-									<li>
-										<a style="cursor:pointer;" target="_blank" title="站长统计" onclick="Statistics();"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
-									</li>
-								</ul>
+	<body>
+		<div style="background-image: url(https://api.sunweihu.com/bing/bing.php);height: 100%;">
+			<div style="background-image: url(https://blog.mrabit.com/bing/today);height: 100%;">
+				<div style="background-image: url(https://api.uixsj.cn/bing/bing.php);height: 100%;">
+
+					<div id="page" class="x-box" style="background: rgba(0, 0, 0, 0.4) no-repeat;">
+						<div class="fh5co-loader"></div>
+						<nav class="fh5co-nav" role="navigation">
+							<div class="top">
+								<div class="container">
+									<div class="row">
+										<div class="col-xs-12 text-right">
+											<p class="num"></p>
+											<ul class="fh5co-social">
+												<li>
+													<a style="cursor:pointer;" target="_blank" title="经济学园[付费]" onclick="Group1();"><i class="fa fa-qq" aria-hidden="true"></i></i>
+													</a>
+												</li>
+												<li>
+													<a style="cursor:pointer;" target="_blank" title="科技学园[免费]" onclick="Group2();"><i class="fa fa-qq" aria-hidden="true"></i></i>
+													</a>
+												</li>
+												<li>
+													<a style="cursor:pointer;" target="_blank" title="站长统计" onclick="Statistics();"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="top-menu">
+								<div class="container">
+									<div class="row">
+										<div class="col-xs-1">
+											<div style="position: absolute;top:-20px;left: 20px;line-height: 60px;font-size: 24px;font-weight: 100;width: 200px;color: #fff;" href="#">
+												<img src="images/logo.png" alt="QYBot" width="32" height="32">&nbsp; QYBot</div>
+										</div>
+										<div class="col-xs-11 text-right menu-1">
+											<ul>
+												<li class="active">
+													<a style="cursor:pointer;" onclick="Home();">首页</a>
+												</li>
+												<li id="bbs" class="layui-nav-item">
+													<a style="cursor:pointer;" onclick="Community();">社区</a>
+												</li>
+												<li>
+													<a style="cursor:pointer;" onclick="Document();">文档</a>
+												</li>
+												<li class="has-dropdown">
+													<a style="cursor:pointer;">下载</a>
+													<ul class="dropdown">
+														<li>
+															<a style="cursor:pointer;" onclick="QYBot();">Android协议版</a>
+														</li>
+														<li>
+															<a style="cursor:pointer;" onclick="QYBotch();">Android批量版</a>
+														</li>
+														<li>
+															<a style="cursor:pointer;" onclick="QYPCBot();">PC协议版[推荐]</a>
+														</li>
+														<li>
+															<a style="cursor:pointer;" onclick="E_SDK();">E SDK</a>
+														</li>
+														<li>
+															<a style="cursor:pointer;" onclick="C_SDK();">C# SDK</a>
+														</li>
+														<li>
+															<a style="cursor:pointer;" onclick="C__SDK();">C++ SDK</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a style="cursor:pointer;" onclick="Donation();">捐助</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</nav>
+
+						<div class="h-center-box">
+							<div class="h-center">
+								<h2 id="hitokoto" style="color: #FFF;">契约因你而精彩!</h2>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="top-menu">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-1">
-								<div style="position: absolute;top:-20px;left: 20px;line-height: 60px;font-size: 24px;font-weight: 100;width: 200px;color: #fff;" href="#">
-									<img src="images/logo.png" alt="QYBot" width="32" height="32">&nbsp; QYBot</div>
-							</div>
-							<div class="col-xs-11 text-right menu-1">
-								<ul>
-									<li class="active">
-										<a style="cursor:pointer;" onclick="Home();">首页</a>
-									</li>
-									<li id="bbs" class="layui-nav-item">
-										<a style="cursor:pointer;" onclick="Community();">社区</a>
-									</li>
-									<li>
-										<a style="cursor:pointer;" onclick="Document();">文档</a>
-									</li>
-									<li class="has-dropdown">
-										<a style="cursor:pointer;">下载</a>
-										<ul class="dropdown">
-											<li>
-												<a style="cursor:pointer;" onclick="QYBot();">Android协议版</a>
-											</li>
-											<li>
-												<a style="cursor:pointer;" onclick="QYBotch();">Android批量版</a>
-											</li>
-											<li>
-												<a style="cursor:pointer;" onclick="QYPCBot();">PC协议版[推荐]</a>
-											</li>
-											<li>
-												<a style="cursor:pointer;" onclick="E_SDK();">E SDK</a>
-											</li>
-											<li>
-												<a style="cursor:pointer;" onclick="C_SDK();">C++ SDK</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a style="cursor:pointer;" onclick="Donation();">捐助</a>
-									</li>
-								</ul>
-							</div>
-						</div>
 
-					</div>
-				</div>
-			</nav>
-
-			<div class="h-center-box">
-				<div class="h-center">
-					<h2 id="hitokoto" style="color: #FFF;">契约因你而精彩!</h2>
-				</div>
-			</div>
-
-			<div class="layui-footer footer footer-index">
-				<div class="layui-container">
-					<span style="float:left"><p style="margin-bottom: 4px;margin-top: 20px;">© 2020 <a class="f-qy" >QYBot.</a> All Rights Reserved</p></span>
-					<span id="Agreement" style="float:right">
-       					<a style="cursor:pointer;" class="upyun" onclick="Upyun();"></a> 
-  						<a style="cursor:pointer;" class="github" onclick="Github();"></a>
+						<div class="layui-footer footer footer-index">
+							<div class="layui-container">
+								<span style="float:left"><p style="margin-bottom: 4px;margin-top: 20px;">© 2020 <a class="f-qy" >QYBot.</a> All Rights Reserved</p></span>
+								<span id="Agreement" style="float:right">
+       					<a style="cursor:pointer;" class="upyun f-logo" onclick="Upyun();"></a> 
+  						<a style="cursor:pointer;" class="github f-logo" onclick="Github();"></a>
+  						<!--a style="cursor:pointer;" class="coding f-logo" onclick="Coding();"></a-->
 					</span>
+							</div>
+						</div>
+						<div style="display:none">
+							
+							<a id="Donation" href="" class="popup-vimeo btn-video"></a>
+							<a id="Jump" target="_blank" href="" ></a>
+							<img src="images/upyun+.png" alt="" />
+							<img src="images/github+.png" alt="" />
+							<img src="images/coding+.png" alt="" />
+						</div>
+					</div>
 				</div>
-			</div>
-			<div style="display:none">
-				<script type="text/javascript">
-					var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
-					document.write(unescape("%3Cspan id='cnzz_stat_icon_1278608912'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278608912' type='text/javascript'%3E%3C/script%3E"));
-				</script>
-				<a id="Donation" href="https://qybots.github.io/index+.html" class="popup-vimeo btn-video">捐助</a>
-				<img src="images/upyun+.png" alt="" />
-				<img src="images/github+.png" alt="" />
-
 			</div>
 		</div>
-
 		<!-- 核心 -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.countTo.js"></script>
@@ -152,261 +158,9 @@
 		<script src="js/magnific-popup-options.js"></script>
 		<!-- 一言 -->
 		<script src="https://v1.hitokoto.cn/?c=e&encode=js&select=%23hitokoto" defer></script>
+		<!-- 下载 -->
+		<script src="js/qybot.main.js"></script>
 
-		<script>
-			function Group1() {
-				var url = "https://jq.qq.com/?_wv=1027&k=5bxBeVG";
-				var iframe = document.createElement("iframe");
-				document.body.appendChild(iframe);
-				iframe.style.display = "none";
-				iframe.src = url;
-			}
-
-			function Group2() {
-				var url = "https://jq.qq.com/?_wv=1027&k=5Qe8J6c";
-				var iframe = document.createElement("iframe");
-				document.body.appendChild(iframe);
-				iframe.style.display = "none";
-				iframe.src = url;
-			}
-
-			function Statistics() {
-				window.open("https://www.cnzz.com/stat/website.php?web_id=1278608912")
-			}
-
-			function Home() {}
-
-			function Community() {
-				xtip.closeAll();
-				xtip.msg('暂无社区', {
-					times: 4,
-					icon: 'w'
-				});
-			}
-
-			function Document() {
-				xtip.closeAll();
-				xtip.msg('暂无文档', {
-					times: 4,
-					icon: 'w'
-				});
-			}
-
-			function QYBot() {
-				var wx = window.navigator.userAgent.toLowerCase();
-				var qq = navigator.userAgent.toLowerCase();
-				if(wx.match(/MicroMessenger/i) == 'micromessenger') {
-					xtip.closeAll();
-					xtip.msg('微信不是浏览器,请使用浏览器下载!', {
-						times: 4,
-						icon: 'w'
-					});
-				} else {
-					if(qq.match(/QQ\/[0-9]/i)) {
-						xtip.closeAll();
-						xtip.msg('聊天工具不是浏览器,请使用浏览器下载!', {
-							times: 4,
-							icon: 'w'
-						});
-					} else {
-						var url = "http://qiniu.supner.com/o_1e0ro1p1816471ivu14j61f2hfhla.zip?attname=QY_Bot.zip";
-
-						xtip.closeAll();
-						xtip.msg('即将下载Android协议框架...', {
-							times: 8
-						});
-
-						/*var iframe = document.createElement("iframe");
-						document.body.appendChild(iframe);
-						iframe.style.display = "none";
-						iframe.src = url;*/
-
-						/*document.getElementById('Donation').setAttribute('href', url);
-						var link = document.getElementById('Donation');
-						link.click();*/
-
-						window.open(url)
-
-					}
-				}
-			}
-
-			function QYBotch() {
-				var wx = window.navigator.userAgent.toLowerCase();
-				var qq = navigator.userAgent.toLowerCase();
-				if(wx.match(/MicroMessenger/i) == 'micromessenger') {
-					xtip.closeAll();
-					xtip.msg('微信不是浏览器,请使用浏览器下载!', {
-						times: 4,
-						icon: 'w'
-					});
-				} else {
-					if(qq.match(/QQ\/[0-9]/i)) {
-						xtip.closeAll();
-						xtip.msg('聊天工具不是浏览器,请使用浏览器下载!', {
-							times: 4,
-							icon: 'w'
-						});
-					} else {
-						var url = "http://qiniu.supner.com/o_1e0ro4l5l1qg410da1qs614u22o5a.zip?attname=QY_Botch.zip";
-
-						xtip.closeAll();
-						xtip.msg('即将下载Android协议批量框架...', {
-							times: 8
-						});
-
-						/*var iframe = document.createElement("iframe");
-						document.body.appendChild(iframe);
-						iframe.style.display = "none";
-						iframe.src = url;*/
-
-						/*document.getElementById('Donation').setAttribute('href', url);
-						var link = document.getElementById('Donation');
-						link.click();*/
-
-						window.open(url)
-					}
-				}
-			}
-
-			function QYPCBot() {
-				var wx = window.navigator.userAgent.toLowerCase();
-				var qq = navigator.userAgent.toLowerCase();
-				if(wx.match(/MicroMessenger/i) == 'micromessenger') {
-					xtip.closeAll();
-					xtip.msg('微信不是浏览器,请使用浏览器下载!', {
-						times: 4,
-						icon: 'w'
-					});
-				} else {
-					if(qq.match(/QQ\/[0-9]/i)) {
-						xtip.closeAll();
-						xtip.msg('聊天工具不是浏览器,请使用浏览器下载!', {
-							times: 4,
-							icon: 'w'
-						});
-					} else {
-						var url = "http://qiniu.supner.com/o_1e0ro6esn1ohh1bqupbi1rvd155va.zip?attname=QY_Botch.zip";
-
-						xtip.closeAll();
-						xtip.msg('即将下载PC协议框架...', {
-							times: 8
-						});
-
-						/*var iframe = document.createElement("iframe");
-						document.body.appendChild(iframe);
-						iframe.style.display = "none";
-						iframe.src = url;*/
-
-						/*document.getElementById('Donation').setAttribute('href', url);
-						var link = document.getElementById('Donation');
-						link.click();*/
-
-						window.open(url)
-					}
-				}
-			}
-
-			function E_SDK() {
-				var wx = window.navigator.userAgent.toLowerCase();
-				var qq = navigator.userAgent.toLowerCase();
-				if(wx.match(/MicroMessenger/i) == 'micromessenger') {
-					xtip.closeAll();
-					xtip.msg('微信不是浏览器,请使用浏览器下载!', {
-						times: 4,
-						icon: 'w'
-					});
-				} else {
-					if(qq.match(/QQ\/[0-9]/i)) {
-						xtip.closeAll();
-						xtip.msg('聊天工具不是浏览器,请使用浏览器下载!', {
-							times: 4,
-							icon: 'w'
-						});
-					} else {
-						var url = "https://link.gimhoy.com/sharepoint/aHR0cHM6Ly9qaWE2NjYtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvcWlhbmNoYW5ndHVqdW5feGt4X21lL0VjTEktdGQyUnIxQmtiOGJoUUVmM3ZNQkZPd0h1Vy1GSURJb2dqbnhJcDg1LWc/ZT1yN3Q0Q3g=.zip";
-
-						xtip.closeAll();
-						xtip.msg('即将下载易语言插件模板...', {
-							times: 8
-						});
-						var iframe = document.createElement("iframe");
-						document.body.appendChild(iframe);
-						iframe.style.display = "none";
-						iframe.src = url;
-
-						/*document.getElementById('Donation').setAttribute('href', url);
-						var link = document.getElementById('Donation');
-						link.click();*/
-
-						/*window.open(url)*/
-					}
-				}
-			}
-
-			function C_SDK() {
-				var wx = window.navigator.userAgent.toLowerCase();
-				var qq = navigator.userAgent.toLowerCase();
-				if(wx.match(/MicroMessenger/i) == 'micromessenger') {
-					xtip.closeAll();
-					xtip.msg('微信不是浏览器,请使用浏览器下载!', {
-						times: 4,
-						icon: 'w'
-					});
-				} else {
-					if(qq.match(/QQ\/[0-9]/i)) {
-						xtip.closeAll();
-						xtip.msg('聊天工具不是浏览器,请使用浏览器下载!', {
-							times: 4,
-							icon: 'w'
-						});
-					} else {
-						var url = "https://link.gimhoy.com/sharepoint/aHR0cHM6Ly9qaWE2NjYtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvcWlhbmNoYW5ndHVqdW5feGt4X21lL0VUMWhfZDJMVmc1QW9pY3g0Q01fZXRjQmY3U1MxUlB2RjVESUgzZzdXX3RycHc/ZT11WmUzNFo=.zip";
-
-						xtip.closeAll();
-						xtip.msg('即将下载C++插件模板...', {
-							times: 8
-						});
-						var iframe = document.createElement("iframe");
-						document.body.appendChild(iframe);
-						iframe.style.display = "none";
-						iframe.src = url;
-
-						/*document.getElementById('Donation').setAttribute('href', url);
-						var link = document.getElementById('Donation');
-						link.click();*/
-
-						/*window.open(url)*/
-					}
-				}
-			}
-
-			function Donation() {
-				/*var url = "http://tiamo.iicp.net/C_SDK.zip";
-				document.getElementById('Donation').setAttribute('href', url);
-				var link = document.getElementById('Donation');
-				link.click();*/
-				xtip.closeAll();
-				xtip.msg('暂时无需捐助', {
-					times: 4,
-					icon: 'w'
-				});
-			}
-
-			function Upyun() {
-				window.open("https://www.upyun.com/")
-			}
-
-			function Github() {
-				window.open("https://github.com/")
-			}
-			window.onload = function() {　　　　
-				/*xtip.closeAll();
-				xtip.alert('官网正在建设中...', 'w', {
-					title: '提示'
-				});*/
-			}
-		</script>
 	</body>
 
 </html>
