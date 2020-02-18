@@ -42,7 +42,7 @@ function QYBot() {
 		times: 8
 	});
 
-	var url = "./Download/QY_Bot.zip";
+	var url = "./download/QY_Bot.zip";
 	
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -51,7 +51,7 @@ function QYBot() {
 
 }
 
-function QYBotch() {
+function QYBatch() {
 	xtip.closeAll();
 	xtip.alert('批量版不支持设备锁登录，双击请输入验证码后可输入验证码！', 'w', {
 		title: '温馨提示'
@@ -61,7 +61,7 @@ function QYBotch() {
 		times: 8
 	});
 
-	var url = "./Download/QY_Batch.zip";
+	var url = "./download/QY_Batch.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -76,7 +76,7 @@ function QYPCBot() {
 		times: 8
 	});
 
-	var url = "./Download/QY_PCBot.zip";
+	var url = "./download/QY_PCBot.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -91,7 +91,7 @@ function E_SDK() {
 		times: 8
 	});
 
-	var url = "./Download/E_SDK.zip";
+	var url = "./download/E_SDK.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -106,7 +106,7 @@ function C_SDK() {
 		times: 8
 	});
 
-	var url = "./Download/C_SDK.zip";
+	var url = "./download/C_SDK.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -121,7 +121,7 @@ function C__SDK() {
 		times: 8
 	});
 
-	var url = "./Download/C__SDK.zip";
+	var url = "./download/C__SDK.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -136,7 +136,7 @@ function PHP_SDK() {
 		times: 8
 	});
 
-	var url = "./Download/PHP_SDK.zip";
+	var url = "./download/PHP_SDK.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -151,7 +151,7 @@ function Java_SDK() {
 		times: 8
 	});
 
-	var url = "./Download/Java_SDK.zip";
+	var url = "./download/Java_SDK.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -166,7 +166,7 @@ function Python_SDK() {
 		times: 8
 	});
 
-	var url = "./Download/Python_SDK.zip";
+	var url = "./download/Python_SDK.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
@@ -181,7 +181,7 @@ function NodeJS_SDK() {
 		times: 8
 	});
 
-	var url = "./Download/NodeJS_SDK.zip";
+	var url = "./download/NodeJS_SDK.zip";
 
 	var iframe = document.createElement("iframe");
 	document.body.appendChild(iframe);
