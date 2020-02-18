@@ -59,7 +59,12 @@ function QYBot() {
 			xtip.msg('即将下载Android协议框架...', {
 				times: 8
 			});
-			window.open(url)
+			var iframe = document.createElement("iframe");
+	document.body.appendChild(iframe);
+	iframe.style.display = "none";
+	iframe.src = url;
+  
+
 
 			/*var iframe = document.createElement("iframe");
 			document.body.appendChild(iframe);
