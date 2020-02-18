@@ -11,7 +11,7 @@
 }
 
 .f-qy:hover {
-	color: #EA9215;
+	color: orange;
 }
 
 .h-center-box {
@@ -31,44 +31,36 @@
 	font-family: "Work Sans", Arial, sans-serif;
 }
 
-.upyun {
-	background: url(../images/upyun.png) no-repeat;
+.f-logo {
 	display: inline-block;
-	width: 90px;
-	height: 30px;
+	width: 80px;
+	height: 26px;
 	overflow: hidden;
-	background-size: 100% 100%;
 	margin-top: 10px;
+}
+
+.coding {
+	background: url("../images/coding.png") center center/100% 100% no-repeat;
+}
+
+.coding:hover {
+	background: url("../images/coding+.png") center center/100% 100% no-repeat;
+}
+
+.upyun {
+	background: url("../images/upyun.png") center center/100% 100% no-repeat;
 }
 
 .upyun:hover {
-	background: url(../images/upyun+.png) no-repeat;
-	display: inline-block;
-	width: 90px;
-	height: 30px;
-	overflow: hidden;
-	background-size: 100% 100%;
-	margin-top: 10px;
+	background: url("../images/upyun+.png") center center/100% 100% no-repeat;
 }
 
 .github {
-	background: url(../images/github.png) no-repeat;
-	display: inline-block;
-	width: 90px;
-	height: 30px;
-	overflow: hidden;
-	background-size: 100% 100%;
-	margin-top: 10px;
+	background: url("../images/github.png") center center/100% 100% no-repeat;
 }
 
 .github:hover {
-	background: url(../images/github+.png) no-repeat;
-	display: inline-block;
-	width: 90px;
-	height: 30px;
-	overflow: hidden;
-	background-size: 100% 100%;
-	margin-top: 10px;
+	background: url("../images/github+.png") center center/100% 100% no-repeat;
 }
 
 .layui-container {
@@ -332,7 +324,7 @@ figure {
 }
 
 .fh5co-nav ul li.has-dropdown .dropdown {
-	width: 140px;
+	width: 156px;
 	-webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
@@ -466,9 +458,9 @@ figure {
 	display: table;
 	text-align: center;
 	background: #fff;
-	-webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.2);
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -488,14 +480,14 @@ figure {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.2);
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 
 .fh5co-video:hover .overlay {
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.2);
 }
 
 .fh5co-video:hover a {
@@ -609,7 +601,7 @@ figure {
 #fh5co-header .display-tc .btn.btn-video,
 #fh5co-counter .display-tc .btn.btn-video,
 .fh5co-cover .display-tc .btn.btn-video {
-	background: rgba(9, 198, 171, 0.8);
+	background: rgba(9, 198, 171, 0.2);
 	border: none;
 }
 
@@ -619,7 +611,7 @@ figure {
 #fh5co-counter .display-tc .btn.btn-video:focus,
 .fh5co-cover .display-tc .btn.btn-video:hover,
 .fh5co-cover .display-tc .btn.btn-video:focus {
-	background: rgba(9, 198, 171, 0.9) !important;
+	background: rgba(9, 198, 171, 0.2) !important;
 	color: #fff !important;
 }
 
