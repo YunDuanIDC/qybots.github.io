@@ -53,7 +53,7 @@ function QYBot() {
 				icon: 'w'
 			});
 		} else {
-			var url = "http://qiniu.supner.com/o_1e0ro1p1816471ivu14j61f2hfhla.zip?attname=QY_Bot.zip";
+			var url = "./Download/QY_Bot.zip";
 			var bturl = "";
 			xtip.closeAll();
 			xtip.msg('即将下载Android协议框架...', {
